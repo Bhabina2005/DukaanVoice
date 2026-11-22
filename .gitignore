@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+backend/venv/
+env/
+ENV/
+.venv/
+
+# Pytest / Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vite-temp/
+*.log
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Whitelist environment templates
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Databases & Local Data (CRITICAL: Never commit local or demo databases)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+backend/*.db
+backend/dukaanvoice.db
+backend/demo_screenshots.db
+disposable_pg_cluster/
+scratch/
+
+# Backups & Temporary files
+*.bak
+*.backup
+*.phase1_backup
+test_write.txt
+logfile
+
+# OS Files
+.DS_Store
+Thumbs.db
